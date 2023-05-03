@@ -59,3 +59,35 @@ footer a {
   flex-direction: column;
   align-items: center;
 }
+
+.section-light {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.icons {
+  height: 27px;
+  width: 27px;
+}
+
+.section-dark {
+  background: #7DB96F;
+  color: #FFFFFF;
+}
+
+.card {
+  background: #FCF7D6;
+  color: #000000;
+  margin: 30px;
+  border-radius: 15px;
+  padding: 38px;
+  text-align: left;
+}
