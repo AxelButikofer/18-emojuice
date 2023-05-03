@@ -39,6 +39,7 @@ h3 {
 footer {
   color: #7DB96F;
   margin-bottom: 45px;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 footer p {
@@ -57,7 +58,10 @@ footer a {
 
 .box-title {
   background: #ffffffe6;
+  color: #7DB96F;
+  font-size: 19px;
   margin: 30px;
+  padding: 58px 27px;
   padding-left: 58px;
   padding-right: 58px;
   padding-top: 27px;
@@ -88,15 +92,15 @@ footer a {
   align-items: center;
 }
 
-.section-light {
-margin: 50px 0 50px 0;
-}
-
 .section-dark {
   background: #7DB96F;
   color: #FFFFFF;
   padding: 25px 0 25px 0;
 }
+
+.section-light {
+  margin: 50px 0 50px 0;
+  }
 
 .container-icons {
   display: flex;
@@ -109,6 +113,10 @@ margin: 50px 0 50px 0;
 .icons {
   height: 27px;
   width: 27px;
+}
+
+.reverse-img {
+  transform: scaleX(-1)
 }
 
 .card-banane {
@@ -158,9 +166,19 @@ margin: 50px 0 50px 0;
   opacity: 50%;
 }
 
-.card-link {
+a {
   text-decoration: none;
+}
+
+.card-link {
   color: #000000;
+  text-decoration: underline;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+}
+
+.contacte-title{
+  color: #7DB96F;
 }
 
 main img {
