@@ -33,6 +33,7 @@ h2 {
 h3 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
+  margin: 10px 0 10px 0;
 }
 
 footer {
@@ -108,19 +109,56 @@ footer a {
 .section-dark {
   background: #7DB96F;
   color: #FFFFFF;
-}
-
-.card {
+.card-banane {
   background: #FCF7D6;
   color: #000000;
   filter: drop-shadow(0 0 0.40rem #00000070);
   margin: 30px;
   border-radius: 15px;
   padding: 38px;
+}
+
+.card-kiwi {
+  background: #D0F1AE;
+  color: #000000;
+  filter: drop-shadow(0 0 0.40rem #00000070);
+  margin: 30px;
+  border-radius: 15px;
+  padding: 38px;
+}
+
+.card-café {
+  background: #CDC4B0;
+  color: #000000;
+  filter: drop-shadow(0 0 0.40rem #00000070);
+  margin: 30px;
+  border-radius: 15px;
+  padding: 38px;
+}
+
+.card-fraise {
+  background: #E2A2B1;
+  color: #000000;
+  filter: drop-shadow(0 0 0.40rem #00000070);
+  margin: 30px;
+  border-radius: 15px;
+  padding: 38px;
+}
+
+.content {
   display: flex;
   flex-wrap: wrap;
-  align-items: left;
+  align-items: flex-end;
   justify-content: space-between;
+}
+
+.card-opacity {
+  opacity: 50%;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #000000;
 }
 
 main img {
