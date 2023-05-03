@@ -89,8 +89,13 @@ footer a {
 }
 
 .section-light {
-  margin-top: 100px;
-  margin-bottom: 100px;
+margin: 50px 0 50px 0;
+}
+
+.section-dark {
+  background: #7DB96F;
+  color: #FFFFFF;
+  padding: 25px 0 25px 0;
 }
 
 .container-icons {
@@ -106,9 +111,6 @@ footer a {
   width: 27px;
 }
 
-.section-dark {
-  background: #7DB96F;
-  color: #FFFFFF;
 .card-banane {
   background: #FCF7D6;
   color: #000000;
