@@ -26,7 +26,7 @@ footer a {
   text-decoration: none;
 }
 
-h {
+h2 {
   font-family: 'Maven Pro', sans-serif;
 }
 
@@ -66,24 +66,22 @@ footer a {
 .cta {
   background: #7DB96F;
   color: #FFFFFF;
-  padding-left: 17px;
-  padding-right: 17px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  filter: drop-shadow(0 0 0.40rem #00000051);
+  padding: 17px 13px;
   border-radius: 17px;
+  margin: 10px;
 }
 
 .cta-light {
   background: #FFFFFF;
   color: #7DB96F;
-  padding-left: 17px;
-  padding-right: 17px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  filter: drop-shadow(0 0 0.40rem #00000051);
+  padding: 17px 13px;
   border-radius: 17px;
+  margin-bottom: 10px;
 }
 
-.container {
+.cta-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,6 +113,7 @@ footer a {
 .card {
   background: #FCF7D6;
   color: #000000;
+  filter: drop-shadow(0 0 0.40rem #00000070);
   margin: 30px;
   border-radius: 15px;
   padding: 38px;
