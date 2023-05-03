@@ -35,6 +35,25 @@ h3 {
   font-size: 30px;
 }
 
+footer {
+  color: #7DB96F;
+  margin-bottom: 45px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 35px 0 35px 0;
+}
+
+footer a {
+  color: #FFFFFF;
+  background: #7DB96F;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
 .box-title {
   background: #ffffffe6;
   margin: 30px;
