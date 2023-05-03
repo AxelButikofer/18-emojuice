@@ -89,5 +89,12 @@ footer a {
   margin: 30px;
   border-radius: 15px;
   padding: 38px;
-  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: space-between;
+}
+
+main img {
+  max-width: 40%;
 }
